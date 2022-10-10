@@ -1,5 +1,9 @@
 </textarea>
 <body></body>
 <script>
+    const md = markdownit({html:true})
+                      .use(texmath, { engine: katex,
+                                      delimiters: 'dollars',
+                                      katexOptions: { macros: {"\\RR": "\\mathbb{R}"} } });
     document.body.innerHTML = md.render(document.getElementById("mdcontent").value);
 </script>
