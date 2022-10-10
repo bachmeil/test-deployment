@@ -1,3 +1,5 @@
+rm -f build
+mkdir build
 for f in ./*.md; do
   fmod="${f:2}"
   fmod2="${fmod::-3}"
