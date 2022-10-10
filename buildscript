@@ -4,7 +4,7 @@ for f in ./*.md; do
   fmod="${f:2}"
   fmod2="${fmod::-3}"
   case "$f" in
-    ./index.md) echo "top text" > build/index.html;cat index.md >> build/index.html;echo "bottom text" >> build/index.html;;
-    *) echo "top of page" > "build/${fmod2}.html";cat "${fmod2}.md" >> "build/${fmod2}.html";echo "bottom of page" >> "build/${fmod2}.html";;
+    ./index.md) cat page-top.html > build/index.html;cat index.md >> build/index.html;cat index-bottom.html >> build/index.html;;
+    *) cat page-top.html > "build/${fmod2}.html";cat "${fmod2}.md" >> "build/${fmod2}.html";cat page-bottom.html >> "build/${fmod2}.html";;
   esac
 done
