@@ -4,4 +4,4 @@ This is quite a simple site generator. It grabs all .md files in the directory, 
 
 A link back to the index page is added to every page other than index.html.
 
-It is straightforward to make any changes you want by editing the page-top.html and page-bottom.html files. If you want to change the way it builds, make changes to the Makefile.
+It is straightforward to make any customizations you want by editing the page-top.html, page-bottom.html, and index-bottom files. If you want to change the way it builds, make changes to the buildscript file. The Makefile is no longer used. Doing anything complex in a Makefile is not my cup of tea.
