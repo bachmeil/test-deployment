@@ -1,0 +1,13 @@
+
+
+
+<br><br>[&#8592; Return to site index](index.html)
+</textarea>
+<body></body>
+<script>
+    const md = markdownit({html:true})
+                      .use(texmath, { engine: katex,
+                                      delimiters: 'dollars',
+                                      katexOptions: { macros: {"\\RR": "\\mathbb{R}"} } });
+    document.body.innerHTML = md.render(document.getElementById("mdcontent").value);
+</script>
