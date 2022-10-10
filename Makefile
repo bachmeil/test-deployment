@@ -12,3 +12,6 @@ build:
 	rm -f build
 	mkdir build
 	mv *.html build/
+
+build2:
+	bash buildscript
