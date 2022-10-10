@@ -1,0 +1,3 @@
+# Avoid Git
+
+There is a belief - with some foundation, due to the old way of doing things - that you need to use Git, edit files on a text editor on your local computer, and push and pull with Git in order to use GitHub pages. This project shows that is false. I have created all of these files in the browser. All building is done with GitHub Actions. Once set up, *literally anyone* can use this system, so long as they're willing to write pages in markdown. Further, *almost anyone* can do the setup. You create a repo, turn on GitHub Pages using GitHub Actions, and copy some files into the repo to do the build. I suppose I could make a video to show how to set it up, but the point is that it's not complicated at all.
