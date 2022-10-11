@@ -9,3 +9,4 @@ The goal is to have a very easy way to build a site, where I have complete contr
 - [Math support](math-support.html)
 - [Code support](code-support.html)
 - [Changing the CSS](changing-css.html)
+- [Bash isn't terrible](bash-isnt-terrible.html)
